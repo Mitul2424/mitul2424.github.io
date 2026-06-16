@@ -54,7 +54,7 @@ const translations = {
         "project-brso-d1": "Produced a full BA documentation suite for a simulated banking digitisation mandate: Problem Statement, Stakeholder Map, 3 RACI matrices (As-Is, Project, To-Be), BRD, Gap Analysis, As-Is and To-Be BPMN process models, and FRD",
         "project-brso-d2": "Identified 11 capability gaps mapped to 14 business requirements across 2 delivery sprints using MoSCoW prioritisation",
         "project-brso-d3": "Modelled process improvement: 15-day manual approval time reduced to <4 days; 23% data entry error rate eliminated through automated loan file creation",
-        "project-brso-d4": "Applied full BA methodology: stakeholder mapping (Power/Interest grid), requirements elicitation, BRD → Gap Analysis → Functional Specification → Sprint Planning.",
+        "project-brso-d4": "Applied full MOA methodology: stakeholder mapping (Power/Interest grid), requirements elicitation, BRD → Gap Analysis → Functional Specification → Sprint Planning.",
         "project-brso-link": "<i class=\"fas fa-external-link-alt\"></i> View full project documentation",
         "metric-approval": "Approval time",
         "metric-error":    "Error rate",
@@ -81,7 +81,7 @@ const translations = {
         "job1-title": "Software Engineer",
         "job1-resp1": "Translated Business Requirement Documents (BRDs) into actionable user stories, defined acceptance criteria, and validated deliverables against business needs",
         "job1-resp4": "Participated in agile ceremonies, such as Sprint planning, Backlog refinement, and Risk management.",
-        "job1-resp2": "Managed backlog of 10 - 15 user stories per sprint with 90% on-time delivery rate",
+        "job1-resp2": "Managed backlog of 10–15 user stories per sprint with 90% on-time delivery rate",
         "job1-resp3": "Proposed and built a C# automation tool eliminating repetitive tasks, saving 35+ hours/month and reducing cost",
         "job1-resp5": "Led onboarding and mentored 4 interns/new hires, ensuring smooth integration into the team",
 
@@ -147,7 +147,7 @@ const translations = {
         "hero-tagline": "MOA · AMOA | Delivery Agile | BPMN",
 
         "section-about": "À propos de moi",
-        "summary-text": "Analyste Métier en transition depuis plus de 4 ans d'expérience en développement logiciel (assurance, e-commerce), titulaire d'un master en Systèmes d'Information Innovants. Compétent en recueil des besoins, cartographie des processus, gestion des parties prenantes, analyse des écarts et visualisation de données. Expérience en environnements agiles avec de solides compétences analytiques. Bilingue anglais/français (C2/B2) et ouvert aux opportunités à travers l'Europe.",
+        "summary-text": "Analyste Métier en transition depuis 4+ ans d'expérience en développement logiciel (assurance, e-commerce), titulaire d'un master en Systèmes d'Information Innovants. Compétent en recueil des besoins, documentation des flux fonctionnels, conception de solutions et gestion des parties prenantes. Expérience en environnements agiles et multiculturels. Bilingue anglais/français (C2/B2).",
 
         "section-projects": "Projets Clés",
 
@@ -158,7 +158,7 @@ const translations = {
         "project-brso-d1": "Production d'une suite complète de livrables BA pour un mandat de digitisation bancaire simulé : énoncé du problème, cartographie des parties prenantes, 3 matrices RACI (As-Is, Projet, To-Be), BRD, analyse des écarts, modèles BPMN As-Is et To-Be, et DFE",
         "project-brso-d2": "Identification de 11 écarts de capacité mappés à 14 exigences métier répartis sur 2 sprints selon la priorisation MoSCoW",
         "project-brso-d3": "Modélisation d'une amélioration de processus : délai d'approbation de 15 jours réduit à <4 jours ; taux d'erreur de saisie de 23 % éliminé grâce à la création automatisée du dossier de prêt",
-        "project-brso-d4": "Application de la méthodologie MOA complète : cartographie des parties prenantes (grille Pouvoir/Intérêt), recueil des exigences, BRD → Analyse des écarts → Spécification Fonctionnelle → Planification des Sprints.",
+        "project-brso-d4": "Application de la méthodologie MOA complète : cartographie des parties prenantes (grille Pouvoir/Intérêt), recueil des exigences, chaîne de traçabilité BRD → Analyse des écarts → DFE",
         "project-brso-link": "<i class=\"fas fa-external-link-alt\"></i> Voir la documentation complète du projet",
         "metric-approval": "Délai d'approbation",
         "metric-error":    "Taux d'erreur",
@@ -177,7 +177,9 @@ const translations = {
         "project1-detail1": "Pilotage du développement d'une plateforme digitale remplaçant un système papier, réduisant le délai de 50 % (10 → 5 jours)",
         "project1-detail2": "Création de 20 user stories par Planning Poker, organisées en 7 sprints sur 70 jours",
         "project1-detail3": "Conception de l'architecture système selon la méthodologie 8D avec point de contrôle RCA obligatoire",
-        "project1-detail6": "Application du modèle de gestion du changement ADKAR pour assurer une adoption réussie par les utilisateurs et une intégration système",
+        "project1-detail4": "Interface bilingue (anglais/français) avec notifications e-mail automatisées aux responsables qualité",
+        "project1-detail5": "Tableaux de bord KPI pour le suivi des NC, identification des récurrences et surveillance des actions correctives",
+        "project1-detail6": "Application du modèle ADKAR pour assurer l'adoption par les utilisateurs",
         "project1-detail7": "Documentation projet complète : registre des risques, diagrammes de Gantt, maquettes, analyse coût-bénéfice",
 
         "section-experience": "Expérience Professionnelle",
@@ -185,14 +187,14 @@ const translations = {
         "job1-title": "Ingénieur Logiciel",
         "job1-resp1": "Transformation des BRD en user stories actionnables, définition des critères d'acceptation et validation des livrables",
         "job1-resp2": "Gestion d'un backlog de 10 à 15 user stories par sprint avec 90 % de livraison dans les délais",
-        "job1-resp3": "Proposition et développement d'un outil C# éliminant les tâches répétitives — économie de 35+ heures/mois et réduction des coûts",
-        "job1-resp4": "Participation aux cérémonies agiles telles que la planification de sprint, le raffinement du backlog et la gestion des risques.",
-        "job1-resp5": "Encadrement et mentorat de 4 stagiaires/nouvelles recrues, assurant une intégration fluide au sein de l'équipe",
+        "job1-resp3": "Proposition et développement d'un outil C# éliminant les tâches répétitives — économie de 35+ heures/mois",
+        "job1-resp4": "Responsabilités d'Analyste Métier : collaboration avec product owners et experts métier pour clarifier le périmètre et gérer le backlog d'une plateforme d'assurance",
+        "job1-resp5": "Encadrement et mentorat de 4 stagiaires/nouvelles recrues",
 
         "job2-title": "Développeur Android",
-        "job2-resp1": "Développement de 10+ applications Android en Java/Kotlin ; recueil et affinement des exigences clients, et définition des critères d'acceptation",
-        "job2-resp2": "Résolution de 80 % des incidents clients sous 48 heures, renforçant la satisfaction client",
-        "job2-resp3": "Analyse des retours utilisateurs et identification des points de blocage, conduisant à une amélioration de 30 % du temps de chargement via des optimisations ciblées",
+        "job2-resp1": "Développement de 10+ applications Android en Java/Kotlin ; recueil et affinement des exigences clients",
+        "job2-resp2": "Résolution de 80 % des incidents clients sous 48 heures",
+        "job2-resp3": "Amélioration de 30 % du temps de chargement via optimisations ciblées",
         "job2-resp4": "Intégration d'API REST pour l'échange de données entre application et serveurs backend",
         "job2-resp5": "Diagrammes de classes pour la structure applicative, diagrammes de séquence pour les flux d'événements",
 
@@ -226,10 +228,6 @@ const translations = {
         "section-certifications": "Certifications",
         "cert1-name":   "Pensée critique et prise de décision",
         "cert1-status": "Terminé - Nov 2025",
-        "cert2-name":   "IA Générative pour Analystes Métier (IIBA)",
-        "cert2-status": "Terminé - Mai 2026",
-        "cert3-name":   "IA Agentique pour l'Analyse Métier",
-        "cert3-status": "Terminé - Juin 2026",
 
         "section-languages": "Langues",
         "lang1": "Anglais",
